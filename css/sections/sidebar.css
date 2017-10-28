@@ -1,0 +1,90 @@
+.sidebar {
+	float: left;
+	width: 160px;
+}
+
+.nav {
+	width: 100%;
+	padding: 20px;
+	background: grey;
+	text-align: justify;
+}
+
+.nav__item {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.navigation__menu {
+	padding-left: 0;
+}
+
+.navigation__item {
+	padding: 0;
+	margin-bottom: 40px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.navigation__item:last-child {
+	margin-bottom: 0;
+}
+
+.navigation__link {
+	position: relative;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	color: #1c5bc3;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 5px 0 2px 40px;
+	transition: .3s;
+	display: inline-block;
+	vertical-align: middle;
+	letter-spacing: 2px;
+	margin-top: -16px;
+}
+
+.navigation__link:before {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 20px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	background: url('../../img/icons/spritesheet-nav.png') no-repeat;
+}
+
+.navigation__link--main:before {
+	background-position: -167px -25px;
+}
+
+.navigation__item--crew:before {
+	background-position: -303px -25px;
+}
+
+.navigation__link--testimonials:before {
+	background-position: -25px -25px;
+}
+
+.navigation__item--active .navigation__link, 
+.navigation__item:hover .navigation__link {
+	color: #221f1f;
+}
+
+.navigation__item--active .navigation__link--main:before,
+.navigation__item:hover .navigation__link--main:before {
+	background-position: -234px -22px;
+}
+
+.navigation__item--active .navigation__item--crew:before, 
+.navigation__item:hover .navigation__item--crew:before {
+	 background-position: -376px -25px;
+}
+
+.navigation__item--active .navigation__link--testimonials:before, 
+.navigation__item:hover .navigation__link--testimonials:before {
+	background-position: -96px -25px;
+}

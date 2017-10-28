@@ -1,0 +1,72 @@
+.main-content {
+	float: right
+}
+
+.breadcrumbs {
+	margin-bottom: 15px;
+	margin-top: -6px;
+}
+
+.breadcrumbs__item {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.breadcrumbs__item:after {
+	content: "/"
+}
+
+.breadcrumbs__item__slash:after {
+	display: none;
+}
+
+.item__link {
+	color: #1c5bc3;
+}
+
+.item__link--color {
+	color: #221f1f;
+	text-decoration: none;
+}
+
+.title {
+	font-weight: bold;
+	color: #221f1f;
+	font-size: 49px;
+	margin-bottom: 48px;
+	margin-left: 38px;
+}
+
+.sprite {
+    background-image: url('../../img/icons/spritesheet-nav.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.sprite-feed_icon {
+    background-position: -25px -25px;
+}
+
+.sprite-feed_icon:hover {
+    background-position: -96px -25px;
+}
+
+.sprite-main_icon {
+    background-position: -167px -25px;
+}
+
+.sprite-main_icon:hover {
+    background-position: -235px -25px;
+}
+
+.sprite-team_icon {
+    background-position: -303px -25px;
+}
+
+.sprite-team_icon:hover {
+    background-position: -376px -25px;
+}

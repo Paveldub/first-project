@@ -1,0 +1,131 @@
+ul {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+li {
+	list-style: none;
+}
+
+.header--bottom {
+	margin-bottom: -10px;
+}
+
+.navigation__menu--about_bottom {
+	margin-top: 63px;
+}
+
+.company {
+	background-image: url('../img/background/clouds.png');
+	background-repeat: no-repeat;
+	min-height: 356px;
+	background-size: cover;
+	position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+	margin-bottom: 30px;
+}
+
+.company__title {
+	font-size: 49px;
+	font-weight: bold;
+	position: absolute;
+	margin-left: -57px;
+	color: #221f1f;
+	top: 50%;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	transform: translateX(45%);
+}
+
+.information {
+	width: 700px;
+	line-height: 1.42em;
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+
+.information li {
+	list-style: disc;
+	margin-bottom: 35px;
+}
+
+.information p {
+	margin-bottom: 30px;
+}
+
+.booking {
+	height: 115px;
+	width: 700px;
+	background: #1c5bc3;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+
+.booking__link {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #fff;
+}
+
+.booking--number {
+	display: inline-block;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.partners {
+	width: 700px;
+}
+
+.partners__title {
+	font-weight: bold;
+	font-size: 49px;
+	color: #221f1f;
+	margin-bottom: 40px;
+	line-height: 1.42;
+}
+
+.partners__list {
+	display: block;
+}
+
+.partner__item {
+	width: 160px;
+	margin-right: 70px;
+	display: inline-block;
+	box-sizing: border-box;
+	line-height: 1.42;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.partners__list  {
+	margin-bottom: 0;
+}
+
+.partner__link_width {
+	margin-left: 55px;
+}
+
+.partner__link {
+	display: block;
+}
+
+.partner__icon {
+	filter: grayscale(100%);
+	transition: all .3s;
+}
+
+.partner__link:hover .partner__icon {
+	filter: none;
+}

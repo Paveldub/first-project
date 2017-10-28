@@ -1,0 +1,115 @@
+.header {
+	background-color: #1c5bc3;
+	height: 77px;
+	min-width: 1080px;
+	font-family: 'Roboto';
+	color: #fff;
+	margin-bottom: 45px;
+}
+
+.header--margin:after {
+	content: "";
+	display: none;
+	margin-bottom: 0;
+}
+
+.header-logo {
+	float: left;
+	width: 50%;
+	margin-top: 22px;
+}
+
+.block {
+	display: block;
+}
+
+.header__img {
+	position: relative;
+	margin-left: 2px;
+	margin-top: 1px;
+}
+
+.header-contacts {
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-top: 20px;
+}
+
+.header-contacts:after {
+	position: absolute;
+	content: "";
+	top: 44px;
+	left: 69%;
+	width: 165px;
+	height: 72px;
+}
+
+.popup {
+	position: absolute;
+	padding: 20px;
+	background-color: #fff;
+	width: 165px;
+	height: 72px;
+	top: 0;
+	left: -9999px;
+	border-radius: 6px;
+	box-shadow: 0 0 5px 4px #ccc;
+	opacity: 0;
+	transition: opacity 1s;
+	box-sizing: border-box;
+	z-index: 10;
+}
+
+.popup:after {
+	position: absolute;
+	content: "";
+	top: -6px;
+	width: 15px;
+	height: 15px;
+	transform: rotate(45deg);
+	background-color: #fff;
+	box-shadow: -3px -3px 5px 0 #ccc;
+}
+
+.header-contacts:hover .popup {
+	left: 364px;
+	top: 64px;
+	opacity: 1;
+}
+
+.popup__schedule {
+	color: #1c5bc3;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 6px;
+}
+
+.popup__schedule--color {
+	color: black;
+}
+
+.contacts__phone {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	font-size: 21px;
+}
+
+.contacts__schedule {
+	font-size: 14px;
+	color: #bbceed;
+	cursor: pointer;
+	font-weight: bold;
+	margin-bottom: 17px;
+	transition: all 0.3s;
+}
+
+.contacts__schedule:hover {
+	color: #fff;
+}
+

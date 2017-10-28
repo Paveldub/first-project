@@ -1,0 +1,126 @@
+.footer {
+	height: 78px;
+	min-width: 1080px;
+	margin-top: -78px;
+	background-color: #1c5bc3;
+	color: #fff;
+	overflow: hidden;
+} 
+
+.footer__desc {
+	float: left;
+	font-size: 14px;
+	font-weight: 300;
+	width: 40%;
+	padding-top: 15px;
+	line-height: 1.42em;
+}
+
+.block {
+	display: block;
+}
+
+.footer__link {
+	font-weight: bold;
+	color: #fff;
+}
+
+.footer__name {
+	font-weight: bold;
+}
+
+.footer__logo {
+	float: left;
+	text-align: center;
+	width: 20%;
+	padding-top: 19px;
+}
+
+
+/* socials beggining*/
+
+.footer__social {
+	float: right;
+	width: 40%;
+}
+
+.social__title {
+	padding-top: 14px;
+	padding-bottom: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.social__icons {
+	font-size: 0;
+	text-align: right;
+	margin-right: 62px;
+	display: block;
+}
+
+.social__item {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-left: 11px;
+
+}
+
+.social__item:first-child {
+	margin-left: 0;
+}
+
+.social__link {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../img/icons/spritesheet-social.png);
+	background-repeat: no-repeat;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	transition: all .5s;
+	background-color: #fff;
+	border-radius: 50%;
+	float: right;
+}
+
+.social__link--sprite-fb {
+    background-position: -18px -22px;
+}
+
+.social__link--sprite-fb:hover {
+    background-position: -74px -22px;
+}
+
+.social__link--sprite-gl {
+    background-position: -134px -20px;
+}
+
+.social__link--sprite-gl:hover {
+    background-position: -198px -20px;
+}
+
+.social__link--sprite-mail {
+    background-position: -263px -20px;
+}
+
+.social__link--sprite-mail:hover {
+    background-position: -325px -20px;
+}
+
+.social__link--sprite-tw {
+    background-position: -387px -20px;
+}
+
+.social__link--sprite-tw:hover {
+    background-position: -448px -20px;
+}
+
+.social__link--sprite-vk {
+    background-position: -510px -19px;
+}
+
+.social__link--sprite-vk:hover {
+    background-position: -575px -19px;
+}
